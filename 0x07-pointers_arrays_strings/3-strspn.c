@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strspn - a function that gets the length of a prefix substring.
@@ -7,7 +7,7 @@
  * Return: returns pointer to c position
  */
 
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int n = 0;
 	int r;
