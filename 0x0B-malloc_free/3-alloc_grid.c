@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -31,5 +30,3 @@ int **alloc_grid(int width, int height)
 			array[i][j] = 0;
 	return (array);
 }
-© 2022 GitHub, Inc.
-Footer navigation
