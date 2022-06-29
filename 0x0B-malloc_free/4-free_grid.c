@@ -8,7 +8,6 @@
  * @height: input height (size)
  * Return: free'd grid
  */
-
 void free_grid(int **grid, int height)
 {
 	int i;
