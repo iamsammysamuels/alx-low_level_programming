@@ -12,8 +12,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *nw_str;
 	unsigned int i = 0;
-  lens1 = 0;
-  lens2 = 0;
+
+	lens1 = 0;
+	lens2 = 0;
 
 	if (s1 == NULL)
 		s1 = "";
