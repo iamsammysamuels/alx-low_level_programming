@@ -1,7 +1,7 @@
-#include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "3-calc.h"
 
 /**
  * main - program to perform simple operations
@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 	i = atoi(argv[1]);
 	j = atoi(argv[3]);
 	funcp = get_op_func(argv[2]);
-	product = funcp(a, b);
+	product = funcp(i, j);
 	printf("%d\n", product);
 	return (0);
 }
