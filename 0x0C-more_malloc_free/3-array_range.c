@@ -15,11 +15,11 @@ int *array_range(int min, int max)
 	int *buffer;
 	if (min > max)
 		return (NULL);
-	diff = max -min;
+	diff = max - min;
 	buffer = malloc(sizeof(int) * (diff + 1));
 	if (buffer == NULL)
 		return (NULL);
-	for(i = 0; i <= diff; i++)
+	for (i = 0; i <= diff; i++)
 		buffer[i] = min++;
 	return (buffer);
 }
