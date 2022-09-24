@@ -1,3 +1,15 @@
+#include "hash_tables.h"
+#include <string.h>
+#include <stdlib.h>
+
+/**
+ * hash_table_set - A function that sets a key value pair in the hash table.
+ * @ht: A pointer to hash table to set in.
+ * @key: The key to set in hash table.
+ * @value: The value to set as hash_node's value.
+ * Return: 1 on success, or 0 on failure.
+ */
+
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index = 0;
