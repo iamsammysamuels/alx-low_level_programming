@@ -8,10 +8,10 @@ OBJ = main.o school.o
 all: ${NAME}
 
 school: ${OBJ}
-	${CC} ${OBJ} -o school
+	${CC} ${OBJ} -o ${NAME}
 
 main.o: main.c m.h
 	${CC} -c main.c -o main.o
 
-school.o: school.c m.h
-	${CC} -c school.c -o school.o
+${NAME}.o: school.c m.h
+	${CC} -c school.c -o ${NAME}.o
