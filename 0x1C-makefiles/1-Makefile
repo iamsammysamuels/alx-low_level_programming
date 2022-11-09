@@ -1,7 +1,7 @@
 # _*_ Makefile _*_
 
 CC = gcc
-SRC = $(wildcard *.c)
+SRC = main.c school.c
 
 all: school
 
